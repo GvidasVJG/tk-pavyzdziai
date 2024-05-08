@@ -1,0 +1,247 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow-x: hidden;
+  scrollbar-width: none;
+  background: url( "https://wallpapers.com/images/featured/kanye-pictures-w0efr3fwunfbxdvg.jpg") no-repeat center center fixed;
+
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+nav {
+  z-index: 1000;
+  display: flex;
+  position: fixed;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 0;
+}
+
+nav a {
+  font-family: sans-serif;
+  color: #edf2f4;
+  text-decoration: none;
+  padding: 10px 20px;
+  margin: 0 10px;
+  border-radius: 5px;
+}
+
+nav a:hover {
+  background-color: #DC143C;
+}
+
+nav img {
+  max-width: 50px;
+  height: auto;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  height: 100vh;
+}
+header a img {
+  opacity: 0;
+  display: block;
+  position: relative;
+  text-align: center;
+  height: auto;
+
+  width: 100vw;
+  overflow: hidden;
+}
+
+header a h1 {
+  animation: appear 0.75s ease-in-out forwards;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  font-size: 200px;
+}
+
+
+@keyframes appear {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+main h2 {
+  font-family: sans-serif;
+  font-size: 30pt;
+  text-align: center;
+}
+
+
+main p {
+  font-family: sans-serif;
+  font-size: 12pt;
+  line-height: 1.5;
+}
+
+.Biography-section {
+  background-color: #d10000;;
+  padding: 40px;
+}
+
+
+.Biography-container {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 50px;
+  max-width: 1200px;
+  margin: 0 auto;
+}  
+
+.Biography-container img {
+  width: 50%;
+  flex: 1;
+  height: auto;
+
+}
+
+.Biography-container div{
+  flex: 1;
+}
+
+
+.Biography-section2 {
+  background: #ff4a3d;
+  padding: 40px;
+}
+
+
+.Biography-content2 {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+
+.Music-section {
+  border-top: solid 15px darkred;
+  background-color: red;
+  padding: 100px;
+}
+
+.Music-section h2 {
+  text-align: center;
+}
+  
+.grid {
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+  grid-template-rows: repeat(2,auto);
+  gap: 10px;
+}
+.grid img {
+  width: 100%;
+  height: auto;
+}
+
+.grid-item p {
+  text-align: center;
+}
+
+
+.List li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.List li img {
+
+  width: 50px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.List li span {
+    font-size: 16px;
+}
+
+.Achievement-section {
+  border-top: solid 15px darkred;
+  padding: 60px;
+  background: rgb(158, 0, 0);
+}
+.Achievement-container {
+  display: flex;
+}
+
+.Achievement-content {
+  background-color: #c04f0a;
+  margin: 40px;
+  padding: 20px;
+  flex-direction: row;
+  flex: auto;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  transition: transform 0.5s ease-in-out;
+  border-radius: 10px;
+}
+
+.Achievement-content:hover {
+  transform: scale(1.05);
+  background-color: #e9a312;
+}
+
+.Achievement-content img {
+  max-width: 500px;
+  height: auto;
+}
+
+.Achievement-section h2 {
+  text-align: center;
+}
+
+.Future-section {
+  border-top: solid 15px darkred;
+  background-color: #ffffff;
+  padding: 20px 20vw;
+  text-align: center;
+}
+
+.Future-content {
+  text-align: left;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 50px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.Future-content img {
+  width: 50%;
+  flex: 1;
+  height: auto;
+  max-width: 400px;
+  margin-left: 10vw;
+}
+
+.Future-content div {
+  flex: 1;
+}
+
+
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 5px 0;
+  width: 100%;
+}
