@@ -1,0 +1,94 @@
+html {
+ scroll-behavior: smooth;
+ font-family: 'Indie Flower', cursive;;  
+}
+
+body {
+ padding: 0 200 0 0px;
+ margin-top: 80px;
+ text-decoration-color: white;
+ color: white;
+ font-size: 1.5vw;
+ background-color: #D69026;
+}
+
+h1 {
+  -webkit-text-fill-color: #ba2a1d;
+  -webkit-text-stroke-width: 0.1px;
+ -webkit-text-stroke-color: white;
+}
+
+.info {
+ width: 50vw;
+ border: solid 10px #C5711D;
+ border-radius: 10px;
+ background-color: #E6AF2E;
+ padding: 20px 5%;
+ margin: 0 auto 20px auto;
+}
+
+.info img {
+ width: 100%;
+}
+
+.mik4s {
+ width: 50vw;
+ border-radius: 10px;
+ border: solid 10px #3A5135;
+ background-color: #698F3F;
+ padding: 20px 5%;
+ margin: 0 auto 20px auto;
+}
+
+.mik4s img {
+ width: 100%;
+}
+
+#ivadinis img {
+ display: flex;
+ margin:  0 auto 2vw auto;
+
+}
+
+.topnav {
+ background-color: transparent;
+ display: flex;
+  color: white;
+ justify-content: center;
+ position: fixed;
+ top: 0;
+ left: 0;
+ width: 100vw;
+ overflow: hidden;
+}
+
+.topnav a {
+  font-weight: bold;
+ float: left;
+  -webkit-text-fill-color: #ba2a1d;
+  -webkit-text-stroke-width: 0.1px;
+ -webkit-text-stroke-color: white;
+ color: white;
+ text-align: center;
+ padding: 14px 16px;
+ text-decoration: none;
+ font-size: 1.5vw;
+}
+
+.topnav a:hover {
+ background-color: #698F3F;
+ color: white;
+}
+
+
+.topnav img {
+  height: 40px;
+  padding: 10px 16px;
+}
+
+.footer {
+ background-color: #A3320B;
+ color: #fff;
+ text-align: center;
+ padding: 0 3%;
+}
