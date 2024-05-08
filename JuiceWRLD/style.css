@@ -1,0 +1,116 @@
+		@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+		@import url('https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap');
+
+		html {
+			scroll-behavior: smooth;
+			font-family: Raleway, sans-serif;
+			color: white;
+			text-align: justify;
+			text-indent: 2em;
+			font-weight: bold;
+		}
+
+		body {
+			background: url("https://i1.sndcdn.com/visuals-000132790246-6aRsQL-original.jpg") center;
+		}
+
+		h1 {
+			font-style: italic;
+			font-family: Odibee Sans, cursive;
+			color: yellow;
+		}
+    h3 {
+			font-family: Odibee Sans, cursive;
+			color: yellow;
+    }
+
+    p {
+			margin: 0 auto; /* Ištaisau tarpus, kuriuos sukuria nauji paragrafai */
+		} 
+
+		.navigacija {
+			position: fixed;
+			top: 0;
+			left: 0;
+			background-size: cover;
+			width: 100vw;
+			background:rgba(0, 0, 0, 0.3);
+		}
+
+    .navigacija ul {
+			display: flex;
+			list-style-type: none;
+			overflow: hidden;
+		}
+
+		.navigacija a {
+			text-decoration: none;
+			color: yellow;
+			font-size: 60px;
+			font-style: italic;
+			font-family: Odibee Sans, cursive;
+		}
+
+		.navigacija a:hover {
+			color: red;
+		}
+
+		.navigacija li {
+			display: inline;
+		}
+
+		.flexbox {
+			justify-content: space-evenly;
+			flex-wrap: nowrap;
+		}
+
+		.tekstas {
+			margin-left: 20%;
+			margin-right: 20%;
+			background: rgba(0, 0, 0, 0.4);
+		}
+
+		#Juice_WRLD {
+			text-align: center;
+			font-family: Odibee Sans, cursive;
+			font-size: 100px;
+			color: yellow;
+			margin-top: 100px;
+			background: url("https://imagez.tmz.com/image/e7/4by3/2019/12/08/e7d6d436f2794f6cbe077473f7fbf21e_xl.jpg") center;
+			background-size: cover;
+			padding: 200px 200px;
+			border-radius: 2%;
+		}
+
+    #Early_life {
+     position: relative;
+     top: -80px;
+    }
+
+    #Career {
+     position: relative;
+     top: -80px;
+    }
+
+		.linkas {
+			text-decoration: none;
+			font-style: italic;
+			color: yellow;
+		}
+    
+		.albumai {
+			justify-content: space-evenly;
+			display: flex;
+		}
+
+		.albumas {
+			height: auto;
+			width: 24%;
+			margin: 5px;
+		}
+
+		.footer {
+			color: white;
+			font-style: italic;
+			text-align: center;
+		}

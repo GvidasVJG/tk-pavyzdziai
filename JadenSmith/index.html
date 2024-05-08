@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  </head>
+
+  <style>
+
+    body{background-image: url('img.jpg');
+    }
+    
+    html{
+     scroll-behavior: smooth;
+    }
+
+    #link{
+      text-decoration: none;
+      font-style: italic;
+      color: #87CEFA;
+    }
+
+    .navigacija{
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+    }
+
+    .navigacija ul{
+      display: block;
+      list-style-type: none;
+      background-color: #87CEFA;
+      margin: 0;
+      padding: 10px;
+      overflow: hidden;
+      font-size: 18px;
+    }
+
+    .navigacija li{
+      display: inline;
+    }
+
+    .navigacija li a{
+      text-decoration: none;
+      color: black;
+      padding: 12px 20px;
+      font-family: 'Cormorant Garamond';
+      text-align: center;
+      overflow:hidden;
+    }
+
+    .navigacija li a:hover{
+     background-color:#3eb0f7; 
+      color: AliceBlue;
+    }
+
+    .fa{
+      color: black;
+    }
+
+    .titulinis h1{
+     margin: 50px;
+     text-align: center;
+     font-family:'Cormorant Garamond';
+     font-size: 100px;
+     font-weight: normal;
+     display: flex;
+     justify-content: center;
+    }
+
+  .row {
+     display: flex;
+    }
+  
+  .column {
+     flex: 33,33%;
+     padding: 5px;
+    }
+
+  #img7{
+     border-radius: 10px;
+     margin-left: 30px;
+     border: 5px solid black;
+    }
+
+  #img8{
+     margin: auto;
+     border-radius: 10px;
+     margin-left: 30px;
+     border: 5px solid black;
+    }
+
+  #img9{
+     border-radius: 10px;
+     margin: auto;
+     border: 5px solid black;
+    }
+
+  #img2{
+     border-radius: 5px;
+     float: right;
+     width: 250px;
+     margin: 5px;
+     aspect-ratio: auto;
+    }
+
+  #img3{
+     border-radius: 5px;
+     float: right;
+     height: 190px;
+     margin: 5px;
+    }
+
+  #img4{
+     border-radius: 5px;
+     height: 200px;
+     float: left;
+     margin: 5px;
+   }
+   #img5{
+     border-radius: 5px;
+     width: 150px;
+     float:left;
+     margin: 5px;
+    }
+    #img6{
+      border-radius: 5px;
+      width: 150px;
+      float: right;
+      margin: 5px;
+    }
+
+    .dalis{
+      margin: 50px 50px auto;
+      margin-left: 70px;
+      margin-right: 50px;
+      width: 80%;
+      background-color: #000000;
+      padding: 20px 70px;
+      border-radius: 10px;
+      font-family:'Cormorant Garamond';
+      display: inline-block;
+      text-align: justify;
+      font-size: 20px;
+    }
+
+    .dalis h2{
+      text-align: center;
+      font-size:25px;
+    }
+
+    .table{
+      margin: 50px auto;
+      margin-bottom: 0px;
+      padding: 20px 100px;
+      font-family:'Cormorant Garamond';
+			border-collapse: collapse;
+			width: 80%;
+      margin-top:20px;
+    }
+
+    .kuryba{
+      margin: 50px auto;
+      padding: 20px 100px;
+      font-family:'Cormorant Garamond';
+      margin-top:0px;
+      margin-bottom: 0px;
+		}
+
+    .kuryba h2{
+      text-align: center;
+      font-size: 25px;
+    }
+
+    td, tr, th {
+			border: 2px solid black;
+			text-align: center;
+			padding: 10px;
+			background-color: #b8e2fc;
+		}
+
+    .footer{
+      font-family:'Cormorant Garamond';
+      text-align: right;
+    }
+
+  </style>
+  <body>
+    <div class="navigacija">
+      <ul>
+        <li><a href="#pradzia">Pradžia</a></li>
+        <li><a href="#vaikyste">Vaikystė</a></li>
+        <li><a href="#vaidyba">Vaidyba</a></li>
+        <li><a href="#muzika">Muzika</a></li>
+        <li><a href="#kuryba">Kūryba</a></li>
+        <li><a href="#kuriniai">Mano asmeniniai favoritai</a></li>
+        <li><a href="https://www.instagram.com/c.syresmith/" id="link"><i class="fa fa-instagram"></i></a></li>
+        <li><a href="https://open.spotify.com/artist/0xOeVMOz2fVg5BJY3N6akT" id="link"><i class="fa fa-spotify"></i></a></li>
+        <li><a href="https://twitter.com/jaden" id="link"><i class="fa fa-twitter"></i></a></li>
+      </ul>
+
+    </div>
+   <div id="pradzia" class="titulinis">
+    <h1>Jaden Smith</h1>
+
+    <div class="row">
+  <div class="column">
+    <img src="img11.jpg" alt="1" style="width:88%" id="img7">
+  </div>
+  <div class="column">
+    <img src="img12.jpg" alt="2" style="width:80%" id="img8">
+  </div>
+  <div class="column">
+    <img src="img13.jpg" alt="3" style="width:91%" id="img9">
+  </div>
+</div>
+    
+    <div id="vaikyste" class="dalis">
+    <h2><p style="color:white;">VAIKYSTĖ, JAUNYSTĖ</h2>
+
+    <p style="color:white;">Jadenas Smithas yra amerikiečių šokėjas, repo atlikėjas, kultinio aktoriaus Willo Smitho sūnus. Jadenas Christopheris Sayeris Smithas gimė 1998 m. Liepos 8 d. Malibu mieste. Berniukas gimė labai garsioje amerikiečių šeimoje. Jo tėvas yra populiarus aktorius Willas Smithas, Jadeno mama yra Jada Pinkett Smith. Taip pat Jadenas turi jaunesnę seserį Willow ir vyresnį brolį Trey.
+    Jadeno tėvai niekada nevedė jo ir jo sesers į mokyklą, mokytojus kvietė į savo namus. Jaden iš pradžių jaudinosi dėl mokyklinio lavinimo, tačiau vėliau su tuo susitaikė ir net padėkojo tėvui už tokį sprendimą. Berniukas nuo vaikystės dirbo. Will Smithas reikalavo ne tik paklusti, bet ir atlikti namų ruošos darbus. Jadenas anksti pradėjo uždirbti pinigus pats. Ji ir jos sesuo yra jaunos labdaros organizacijos, kurios tikslas padėti ŽIV infekuotiems vaikams Afrikoje, ambasadorės.
+    Jadenas anksti demonstravo muzikinius gabumus, o tėvas ėmėsi sūnaus muzikinio išsilavinimo. Berniukas studijavo muziką, tuo pačiu metu rengė labdaros koncertus.</p>
+    </div>
+
+    <div id="vaidyba" class="dalis">
+    <h2><p style="color:white;">VAIDYBA</h2>
+
+    <img src="https://image.tmdb.org/t/p/w300/lBYOKAMcxIvuk9s9hMuecB9dPBV.jpg" id="img3">
+    <img src="https://m.media-amazon.com/images/M/MV5BMTgwMTQ1ODY1N15BMl5BanBnXkFtZTgwMjM4NjQ3NTM@._V1_.jpg" id="img4">
+
+    <p style="color:white;">
+    Jadenas savo karjerą kine pradėjo labai anksti. Berniukui buvo tik 5 metai, kai 2003 m. Buvo išleistas serialas „Viskas apie mus“. Žiūrovai pamilo mažąjį herojų. Nepaisant labai jauno amžiaus, jis visiems parodė aukštą meniškumo lygį. 2006 m. Buvo išleistas kelių dalių filmas „Laimės ieškojimas“. Jadenas jame vaidino protagonisto sūnų. O pagrindinis veikėjas buvo pats Willas Smithas, todėl iškart buvo aišku,kad paveikslas buvo tiesiog pasmerktas sėkmei.
+    2010 metais Jadenas Smithas vaidino vieną ryškiausių savo vaidmenų filme „Karatė berniukas“. Jis jį vaidino kartu su Jackie Chanu. Nuotrauka buvo tokia sėkminga, kad jau pirmaisiais mėnesiais po jos išleidimo dideliame ekrane kasa 7 kartus viršijo juostos sukūrimo kainą. Tai pat vaidino filmuose kaip: „Žemė - nauja pradžia“, „Diena, kai sustojo žemė“, „Skate Kitchen“, „Gyvenimas per metus“ ir kt.
+    </p>
+
+    </div>
+    <div table class="table">
+    <table class="table">
+        <tr>
+          <th>Filmas</th>
+          <th>Metai</th>
+          <th>Vaidmuo</th>
+        </tr>
+
+        <tr>
+          <td>The Pursuit of Happyness</td>
+          <td>2006</td>
+          <td>Christopher Gardner Jr.</td>
+       </tr>
+
+        <tr>
+          <td>The Day the Earth Stood Still</td>
+          <td>2008</td>
+          <td>Jacob Benson Jr.</td>
+        </tr>
+
+        <tr>
+          <td> The Karate Kid</td>
+          <td>2010</td>
+          <td>Dre Parker</td>
+        </tr>
+
+        <tr>
+          <td>Justin Bieber: Never Say Never</td>
+          <td>2011</td>
+          <td>Himself</td>
+        </tr>
+
+        <tr>
+          <td>After Earth</td>
+          <td>2013</td>
+          <td>	Kitai Raige</td>
+        </tr>
+
+        <tr>
+          <td>	Skate Kitchen</td>
+          <td>2018</td>
+          <td>Devon</td>
+        </tr>
+
+        <tr>
+          <td>Justin Bieber: Seasons</td>
+          <td>2020</td>
+          <td>Himself</td>
+        </tr>
+
+        <tr>
+          <td>Impractical Jokers: The Movie</td>
+          <td>2020</td>
+          <td>Himself</td>
+        </tr>
+
+        <tr>
+          <td>Life in a Year</td>
+          <td>2020</td>
+          <td>Daryn</td>
+        </tr>
+
+         </table>
+       </div>
+       
+    <div id="muzika" class="dalis">
+    <h2><p style="color:white;">MUZIKA</h2>
+
+    <img src="https://static.wixstatic.com/media/5c0c8a_051df3c1ff6843139c920a26187dd30a~mv2.jpg/v1/fill/w_603,h_603,al_c,q_90/5c0c8a_051df3c1ff6843139c920a26187dd30a~mv2.jpg" id="img5">
+    <img src="https://cdn.shopify.com/s/files/1/0256/4358/1486/files/image_ce8c56ef-6df7-4a02-86ec-ad34f0c66a6a_480x480@2x.jpeg?v=1590027383" id="img6">
+
+    <p style="color:white;">
+    Jadenui Smithui sekasi ne tik vaidinti, bet ir muzikoje. Tikėtina, kad Jadenas Smithas į muziką įsitraukė dėl tėvo įtakos. Willas buvo pasiekęs reperis ir dainininkas. Pirmoji Jadeno patirtis leidžiant muziką buvo 2010 m., kai jis repavo Justino Bieberio dainoje „Never Say Never“. Po šio įvykio Jadenas pradėjo kurti ir savo muziką. 2012 metais Jadenas išleido savo pirmąjį miksą pavadinimu „The Cool Café“. Šiame mikse yra 18 dainų, vienoje dainoje net jo sesuo Willow Smith.
+    Po dvejų metų, 2014 m., Jadenas išleido šio mikso tęsinį pavadinimu CTV2. Šiame albume buvo tik 8 dainos, pusė jų buvo bendradarbiaujama su Willow. 2017 m. Jadenas išleido savo pirmąjį pilną studijinį albumą „Syre“. Vėliau 2019 m. išleido antrąjį albumą „Erys“. Jis debiutavo dvidešimt ketvirtuoju „Billboard's 200“ numeriu.
+    </p>
+   </div>
+
+    <div id="kuryba" class="kuryba">
+    <h2>KŪRYBA</h2>
+
+    <table class="table">
+        <tr>
+          <th>Albumai</th>
+          <th>Metai</th>
+        </tr>
+
+        <tr>
+          <td>The Cool Cafe: Cool Tape Vol. 1</td>
+          <td>2012</td>
+        </tr>
+
+        <tr>
+          <td>Prakruti</td>
+          <td>2014</td>
+        </tr>
+
+        <tr>
+          <td>CTV2</td>
+          <td>2014</td>
+        </tr>
+
+        <tr>
+          <td>SYRE</td>
+          <td>2017</td>
+        </tr>
+
+        <tr>
+          <td>SYRE: The Electric Album</td>
+          <td>2018</td>
+        </tr>
+
+        <tr>
+          <td>The Sunset Tapes: A Cool Tape Story</td>
+          <td>2018</td>
+        </tr>
+
+        <tr>
+          <td>ERYS IS COMING</td>
+          <td>2019</td>
+        </tr>
+
+        <tr>
+          <td>ERYS</td>
+          <td>2019</td>
+        </tr>
+
+        <tr>
+          <td>CTV3: Cool Tape Vol.3</td>
+          <td>2020</td>
+        </tr>
+        
+        </table>
+       </div>
+
+
+    <div id="kuriniai" class="dalis">
+    <h2><p style="color:white;">MANO ASMENINIAI FAVORITAI</h2>
+    <p style="color:white;">
+    Asmeniškai iš Jadeno albumų man labiausiai patinka jo naujausiai išleistas „CTV3: Cool Tape Vol.3“. Iš šio albumo daugiausiai klausiau <a href="https://www.youtube.com/watch?v=9S55FkynUR8" id="link">„In The Hills“</a>, tačiau ne mažiau patiko ir kitos dainos kaip <a href="https://www.youtube.com/watch?v=erRhkWqE8es" id="link">„Deep End“</a>, <a href="https://www.youtube.com/watch?v=xaVrHDEWPME" id="link">„The Birth Of Syre“</a> ir <a href="https://www.youtube.com/watch?v=J2K4Fyvlun4" id="link">„Young In Love“</a> ir kt.
+    </p>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div class="footer"> 2021, Milė Kotryna Karaliūtė</div>
+
+  </body>
+</html>

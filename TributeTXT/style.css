@@ -1,0 +1,340 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Noto Sans TC', sans-serif;
+}
+
+.nuoroda {
+  position: relative;
+  top: -30pt;
+}
+
+.navigacija {
+  text-align: right;
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin: 0;
+  background-color: #c7d3e3;
+  width: 100%;
+  z-index: 99;
+}
+
+.navigacija ul {
+  display: inline;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.navigacija li {
+   display: inline-block;
+   position: relative;
+   padding: 15px 0;
+   background-color: #c7d3e3;
+}
+
+.navigacija a {
+  text-decoration: none;
+  padding: 15px 30px;
+  color: #252934;
+  font-size: 16px;
+  font-weight: bold;
+  position: relative;
+}
+
+.navigacija ul li a:hover {
+  background: #252934;
+  color:#c7d3e3;
+}
+
+.navigacija ul li ul {
+  text-align: left;
+  padding: 0;
+  position: absolute;
+  top: 53px;
+  left: 0;
+  width: 220px;
+  display: none;
+  visibility: hidden;
+}
+
+.navigacija ul li ul a{
+  display: flex;
+  text-align: left;
+  padding: 15px 10px;
+}
+
+.navigacija ul li ul li {
+  background-color: #c7d3e3;
+  display: block;
+  padding: 0 15px;
+  z-index: 99;
+}
+
+.navigacija ul li ul li:hover {
+  background-color: #252934;
+}
+
+.navigacija ul li ul li:hover a {
+  background-color: #252934;
+  color: #c7d3e3;
+}
+
+.navigacija ul li:hover ul {
+  display: block;
+  opacity: 1;
+  visibility: visible;
+}
+
+#kaire {
+  float: left;
+}
+
+#vardai ul {
+  width: 150px;
+}
+
+#home {
+  background: url("freezecoldtxt.jpg") no-repeat center center fixed;
+  background-size: cover;
+  height: 300px;
+  padding-top: 140px;
+  color: #c7d3e3;
+  margin: 0;
+}
+
+.ikialbumo {
+  text-align: center;
+}
+
+#about {
+  background-color: #c7d3e3;
+  color: #252934;
+}
+
+.dalis h1 {
+  margin: 0;
+  padding: 20px;
+}
+.ikialbumo p {
+  margin: 0 100px;
+	padding: 10px 40px;
+  padding-bottom: 20px;
+}
+
+#about img {
+  border: 3px solid #252934;
+  width: 600px;
+}
+
+#members {
+  background-color: #252934;
+  color: #c7d3e3;
+}
+
+#members img {
+  border: 3px solid #c7d3e3;
+  width: 600px;
+}
+
+.memberinfo p {
+  text-align: center;
+  margin: 0 100px;
+	padding: 0 100px;
+}
+
+#members dl {
+	margin: 0 100px;
+  padding: 10px 80px;
+}
+
+#members dt {
+  padding: 3px;
+}
+
+#soobin mark {
+  background-color: #7e94b3;
+  color: #252934;
+}
+
+#yeonjun mark {
+  background-color: #a48692;
+  color: #252934;
+}
+
+#beomgyu mark {
+  background-color: #9b8199;
+  color: #252934;
+}
+
+#taehyun mark {
+  background-color: #a6abc1;
+  color: #252934;
+}
+
+#kai mark {
+  background-color: #c9afc8;
+  color: #252934;
+}
+
+.paskutineinfo dt {
+  margin-bottom: 20px;
+}
+
+#albums {
+  background-color: #c7d3e3;
+  color: #252934;
+  
+}
+
+#albums h1 {
+  text-align: center
+}
+
+#albums h2 {
+  text-align: center
+}
+
+.albumline {
+  width: 100%;
+	height: 2px;
+	background-color: #252934;
+	border: none;
+}
+
+#albums img {
+  border: 3px solid #252934;
+  width: 300px;
+}
+
+#albums dt {
+  font-weight: bold;
+}
+
+.one {
+  margin: 30px 20px;
+  display: flex;
+}
+
+.one img {
+  flex: 1;
+}
+
+.dainos {
+  margin-left: 20px;
+}
+
+.dainos ol {
+  margin-left: 20px;
+  padding: 0;
+}
+
+.songs li a {
+  text-decoration: none;
+  color: #252934;
+}
+
+.songs li a:hover {
+  font-weight: bold;
+}
+
+.two {
+  margin: 30px 20px;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.two .dainos {
+  margin-right: 20px;
+}
+
+#star {
+  background-color: #8ccaed;
+}
+
+#magic {
+  background-color: #57cd9e;
+}
+
+#eternity {
+  background-color: #9e5cda;
+}
+
+#minisode {
+  background-color: #b6bff5;
+}
+
+#freeze {
+  background-color: #c7d3e3;
+}
+
+#awards {
+  background-color: #252934;
+  color: #c7d3e3;
+}
+
+table {
+  width: 60%;
+  align-items: center;
+  border-collapse: collapse;
+  border: 1px solid #c7d3e3;
+  margin-bottom: 40px;
+}
+
+th {
+  height: 25px;
+  background-color: #c7d3e3;
+  color: #252934;
+}
+
+td {
+  height: 20px;
+  text-align: center;
+}
+
+tr:nth-child(even) {
+  background-color:#32395b;
+}
+
+.footer {
+  text-align: right;
+	background-color: #252934;
+	color: #c7d3e3;
+	padding: 0;
+}
+
+.footer ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.footer li {
+  display: inline-block;
+  padding: 15px 0;
+  background-color: #252934;
+}
+
+.footer li a {
+  text-decoration: none;
+  padding: 15px;
+  color: #c7d3e3;
+  font-size: 20px;
+  position: relative;
+}
+
+#autoryste li {
+  float: left;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+}
+
+#lastone {
+  padding-right: 10px;
+}

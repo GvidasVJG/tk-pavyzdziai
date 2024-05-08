@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+html {
+  scroll-behavior: smooth;
+  display: block;
+}
+body{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: lightblue;
+}
+li, a {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: black;
+  text-decoration: none;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10;
+}
+#topBtn{
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  font-size: 22px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: none;
+  background: lightblue;
+  color: #1b2434;
+  cursor: pointer;
+  display: none;
+}
+.logo {
+  cursor: pointer;
+}
+.navigacija{
+  list-style: none;
+}
+.navigacija li {
+  display: inline-block;
+  padding:  0px 20px;
+}
+.navigacija li a{
+  font-weight: bold;
+  transition: all 0.3s ease 0s;
+}
+.navigacija li a:hover{
+  color: white;
+
+}
+.opacity-10 {
+  opacity: .1;
+}
+.object-cover {
+    object-fit: cover;
+}
+.w-screen {
+    width: 100vw;
+}
+.h-screen {
+    height: 100vh;
+}
+.-z-10 {
+    z-index: -10;
+}
+.fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+img, video {
+    max-width: 100%;
+    height: auto;
+}
+.titulinis {
+  margin-bottom: 600px;
+  margin-top: 200px;
+  margin-right: 200px;
+  margin-left: 200px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+
+}
+#MSFS2020{
+  font-family: "Montserrat", sans-serif;
+  padding-top: 30px;
+  padding-left: 100px;
+  padding-bottom: 20px;
+  background: #1b2434;
+  color: white;
+}
+#MSFS2020 p{
+  width: 500px;
+}
+p {
+  display: flex;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+#MSFS2020 img{
+  display: block;
+  border-radius: 10px;
+  filter: grayscale(60%);
+  transition: 1s;
+}
+.aprasymas img:hover{
+  transform: scale(1.1);
+}
+#XPLANE11{
+  font-family: "Montserrat", sans-serif;
+  padding-top: 30px;
+  padding-left: 1100px;
+  padding-bottom: 20px;
+  background: #1b2434;
+  color: white;
+}
+#XPLANE11 img{
+  padding-top: 10px;
+  display: block;
+  border-radius: 10px;
+  transition: 1s;
+}
+#SIMBRIEF {
+  font-family: "Montserrat", sans-serif;
+  padding-top: 30px;
+  padding-left: 100px;
+  padding-bottom: 20px;
+  background: #1b2434;
+  color: white;
+}
+#SIMBRIEF p{
+  width: 500px;
+}
+#SIMBRIEF img {
+  height: 350px;
+  padding-top: 10px;
+  display: block;
+  border-radius: 30px;
+  transition: 1s;
+}
+#Vatsimmap {
+  font-family: "Montserrat", sans-serif;
+  padding-top: 30px;
+  padding-left: 1100px;
+  padding-bottom: 20px;
+  background: #1b2434;
+  color: white;
+}
+#Vatsimmap p{
+  font-size: 15px;
+}
+#Vatsimmap img{
+  height: 350px;
+  padding-top: 10px;
+  display: block;
+  border-radius: 30px;
+  transition: 1s;
+}
+#Navigraph{
+  font-family: "Montserrat", sans-serif;
+  padding-top: 30px;
+  padding-left: 100px;
+  padding-bottom: 20px;
+  background: #1b2434;
+  color: white;
+}
+#Navigraph p{
+  width: 500px;
+}
+#Navigraph img{
+  height: 350px;
+  padding-top: 10px;
+  display: block;
+  border-radius: 30px;
+  transition: 1s;
+}
+#Vatsim {
+  font-family: "Montserrat", sans-serif;
+  padding-top: 30px;
+  padding-left: 1100px;
+  padding-bottom: 20px;
+  background: #1b2434;
+  color: white;
+}
+#Vatsim p{
+  width: 500px;
+}
+#Vatsim img{
+  width: 500px;
+  padding-top: 10px;
+  display: block;
+  border-radius: 30px;
+  transition: 1s;
+}
+.photos{
+  text-align: center; 
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  display: block;
+  height: 100%;
+  background-color:#1b2434;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+}
+.foto {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 5rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+  background-color: #1b2434;
+  
+}
+.pic {
+  position: relative;
+  height: 270px;
+}
+.pic img {
+  width:auto;
+  height: auto;
+  border-radius: 10px;
+  filter: grayscale(90%);
+  transition: 1s;
+}
+.pic img:hover{
+ filter: grayscale(0);
+ transform: scale(1.1);
+}
+.foot {
+  background-color: #1b2434;
+  font-display: "Montserrat", sans-serif;
+  color: #fff;
+  padding: 0 3%;
+}
